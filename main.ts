@@ -1,17 +1,49 @@
-console.log("typescript con platzi"); 
-
-//Number
-//explicito
-let phone: number ;
-
-phone=1;
+//declaración de funciones.
+//uso explicito:
+let phone:number; 
 phone=2281088983;
-//phone="mitre";//error
 
-//number
-//inferido
-let phone2=1;
-let phone2=true;
+let isPro:boolean;
+isPro=true;
+
+let username:string;
+username="Alejandro";
+
+//templete string
+let userInfo:string;
+
+//esto es un template literal:
+userInfo=`
+    userInfo:
+    username:${username},
+    firstname:${username+ `Hernández`},
+    phone:${phone},
+    isPro:${isPro}
+`;
+console.log(`userInfo`, userInfo);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
